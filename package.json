@@ -1,0 +1,26 @@
+{
+  "name": "vpn-network-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@nuxt/ui": "^2.11.1",
+    "@nuxthub/core": "0.9.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/i18n": "^8.0.0",
+    "@nuxtjs/tailwindcss": "^6.8.4",
+    "nuxt": "^3.13.0",
+    "unhead": "^1.8.9"
+  },
+  "overrides": {
+    "unhead": "^1.8.9"
+  }
+}
